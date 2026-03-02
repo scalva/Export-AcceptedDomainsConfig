@@ -1,0 +1,14 @@
+
+---
+
+## 3) `CHANGELOG.md`
+
+```md
+# Changelog
+
+## v1.0.0
+- Initial public release
+- Export Exchange Online Accepted Domains to CSV
+- Optional DNS checks (MX via Resolve-DnsName, SPF/DKIM/DMARC/MTA via DomainHealthChecker)
+- Best-effort ARC config inclusion (Get-ArcConfig)
+- Robust error handling and PS7 compatibility

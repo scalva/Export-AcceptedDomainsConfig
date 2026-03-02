@@ -1,0 +1,19 @@
+# Output folders
+Output/
+src/Output/
+
+# Logs
+*.log
+
+# CSV exports
+*.csv
+
+# VSCode
+.vscode/
+
+# PowerShell temp
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store

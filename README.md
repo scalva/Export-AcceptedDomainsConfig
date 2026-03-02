@@ -6,6 +6,12 @@ Exports Exchange Online **Accepted Domains** configuration and (optionally) runs
 - Designed for Microsoft 365 consulting / auditing
 - Best-effort approach: continues when some checks/cmdlets/modules are not available
 
+![PowerShell](https://img.shields.io/badge/PowerShell-7+-blue)
+![Exchange Online](https://img.shields.io/badge/Exchange-Online-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Release](https://img.shields.io/github/v/release/scalva/Export-AcceptedDomainsConfig)
+![Last Commit](https://img.shields.io/github/last-commit/scalva/Export-AcceptedDomainsConfig)
+
 ## Credits
 
 This project is based on the original work by **Ernesto Cobos Roqueñí**.

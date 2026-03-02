@@ -7,7 +7,13 @@ Gets Exchange Online Accepted Domains and creates a CSV table with DNS/authentic
 Designed for consulting/audit scenarios. PowerShell 7 compatible.
 
 .ORIGINAL_AUTHOR
-Ernesto Cobos Roqueñí (ecobos@microsoft.com) - GetAcceptedDomains-HealthChecker.ps1
+Ernesto Cobos Roqueñí
+
+.ORIGINAL_SOURCE
+https://github.com/ernestocrmsft/guacamole/tree/main/Scripts
+
+.NOTES
+Original concept adapted and extended for consulting and audit scenarios.
 
 .CREDITS
 - Uses DomainHealthChecker module (Invoke-SpfDkimDmarc) for SPF/DKIM/DMARC analysis (see README).

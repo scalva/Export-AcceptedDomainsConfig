@@ -6,6 +6,24 @@ Exports Exchange Online **Accepted Domains** configuration and (optionally) runs
 - Designed for Microsoft 365 consulting / auditing
 - Best-effort approach: continues when some checks/cmdlets/modules are not available
 
+## Credits
+
+This project is based on the original work by **Ernesto Cobos Roqueñí**.
+
+Original script inspiration and implementation:
+
+https://github.com/ernestocrmsft/guacamole/blob/main/Scripts/GetAcceptedDomains-HealthChecker.ps1
+
+The original script was adapted and significantly extended to support:
+
+- Exchange Online consulting and audit scenarios
+- PowerShell 7 compatibility
+- Execution logging and structured output
+- PASS / FAIL authentication posture analysis (SPF, DKIM, DMARC)
+- Multi-tenant friendly execution
+
+Many thanks for the original idea and implementation.
+
 ## What it does
 
 - Retrieves `Get-AcceptedDomain` from Exchange Online
